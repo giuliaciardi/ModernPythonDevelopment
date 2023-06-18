@@ -20,6 +20,7 @@ repos:
         name: detect-secrets
         types: [python]
         exclude: package.lock.json
+    
     repo:
       local
       #   language: system
@@ -36,7 +37,7 @@ repos:
       #   entry: git diff --staged --name-only -z | xargs -0 detect-secrets-hook --baseline .secrets.baseline
       #   language: system
       #   types: [python]
-      # - id: ruff
+      # # - id: ruff
       #   name: ruff
       #   entry: poetry run ruff --fix --no-cache --force-exclude .
 #      - id: isort

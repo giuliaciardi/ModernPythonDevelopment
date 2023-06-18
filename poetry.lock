@@ -5309,4 +5309,4 @@ reference = "pypi.org"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9.8, <=3.11"
-content-hash = "8d6fa7ec541a272bc3b9a7c38b1ebfce613d642ac9320efb6aef34570f799bf6"
+content-hash = "7490fe6cd90d7f4b5d0fa7ff5efb5c46b9f81f16665631996e2d1c0df4e741cd"
