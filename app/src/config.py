@@ -49,12 +49,11 @@ class Settings(BaseSettings):
             diagnose=False,
             encoding="utf8",
         )
-    
+            
         # Proxy loguru logs also to logging logger.
         # The ecs logging formats all logs from the python logging system for elastic.
         # It could be configured to read logs directly from loguru, but in that case it
-        # would miss all parts of the system that log directly to the python logging
-        # system.
+        # would miss all parts of the system that log directly to the python logging system.
         class PropagateHandler(logging.Handler):
             def emit(self, record):
                 logging.getLogger(record.name).handle(record)
