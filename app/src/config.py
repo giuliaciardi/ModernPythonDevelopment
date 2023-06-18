@@ -49,7 +49,7 @@ class Settings(BaseSettings):
             diagnose=False,
             encoding="utf8",
         )
-            
+
         # Proxy loguru logs also to logging logger.
         # The ecs logging formats all logs from the python logging system for elastic.
         # It could be configured to read logs directly from loguru, but in that case it
